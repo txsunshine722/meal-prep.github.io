@@ -1,0 +1,239 @@
+
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F2E9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+
+
+/* Navigation Bar */
+nav {
+    background-color: #244C39;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D8E8D2;
+}
+
+nav a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #E5EDE1;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    color: #244C39;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Main Buttons */
+.btn {
+    display: inline-block;
+    background-color: #244C39;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #376A50;
+}
+
+.btn:focus-visible {
+    outline: 3px solid #244C39;
+    outline-offset: 3px;
+}
+
+
+/* Weekly Menu */
+#menu {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#menu h2 {
+    color: #244C39;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+/* Individual Meal Cards */
+.meal-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.meal-card h3 {
+    color: #244C39;
+    margin-bottom: 10px;
+}
+
+.meal-card p {
+    color: #555555;
+}
+
+
+/* How It Works */
+#how-it-works {
+    background-color: #E5EDE1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#how-it-works ol {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#how-it-works li {
+    margin-bottom: 15px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #E5EDE1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin: 15px auto;
+    max-width: 700px;
+}
+
+/* Section Headings */
+#how-it-works h2,
+#about h2,
+#contact h2 {
+    color: #244C39;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #244C39;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Coming Soon Menu */
+.menu-coming-soon {
+    background-color: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.menu-coming-soon h3 {
+    color: #244C39;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.menu-coming-soon p {
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/* About Us Styling */
+#about h3 {
+    color: #376A50;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.about-tagline {
+    color: #244C39;
+    font-weight: bold;
+    font-size: 20px !important;
+    margin-top: 30px !important;
+}
