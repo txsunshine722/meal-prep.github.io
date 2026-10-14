@@ -1,3 +1,14 @@
+/* Hub City Meal Prep Retro Colors */
+:root {
+    --primary-color: #242424;
+    --accent-color: #F486C2;
+    --accent-dark: #D98296;
+    --background-color: #FFF9F7;
+    --section-color: #E5E5E5E5;
+    --text-color: #555555;
+    --white: #FFFFFF;
+}
+
 
 /* Reset default spacing */
 * {
@@ -9,17 +20,16 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F2E9;
-    color: #333333;
+    background-color: var(--background-color);
     line-height: 1.6;
 }
 
-
-
+nav, footer {
+    background-color: var(--primary-color);
+}
 
 /* Navigation Bar */
 nav {
-    background-color: #244C39;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -28,7 +38,7 @@ nav {
 }
 
 .logo {
-    color: white;
+    color: var(--accent-color);
     font-size: 24px;
 }
 
@@ -57,13 +67,13 @@ nav a:focus-visible {
 
 /* Hero Section */
 .hero-section {
-    background-color: #E5EDE1;
+    background-color: var(--accent-color);
     text-align: center;
     padding: 100px 20px;
 }
 
 .hero-section h1 {
-    color: #244C39;
+    color: var(--primary-color);
     font-size: 48px;
     margin-bottom: 20px;
 }
@@ -76,8 +86,8 @@ nav a:focus-visible {
 /* Main Buttons */
 .btn {
     display: inline-block;
-    background-color: #244C39;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     padding: 14px 28px;
     border-radius: 8px;
     text-decoration: none;
@@ -86,11 +96,11 @@ nav a:focus-visible {
 }
 
 .btn:hover {
-    background-color: #376A50;
+    background-color: #444444;
 }
 
 .btn:focus-visible {
-    outline: 3px solid #244C39;
+    outline: 3px solid var(--accent-dark);
     outline-offset: 3px;
 }
 
@@ -99,12 +109,19 @@ nav a:focus-visible {
 #menu {
     padding: 60px 20px;
     text-align: center;
+
 }
 
+
+
+
+
+
 #menu h2 {
-    color: #244C39;
+    
     font-size: 32px;
     margin-bottom: 15px;
+    color: var(--primary-color);
 }
 
 .meal-container {
@@ -125,7 +142,7 @@ nav a:focus-visible {
 }
 
 .meal-card h3 {
-    color: #244C39;
+    color: var(--dark-accent);
     margin-bottom: 10px;
 }
 
@@ -136,7 +153,7 @@ nav a:focus-visible {
 
 /* How It Works */
 #how-it-works {
-    background-color: #E5EDE1;
+    background-color: var(--section-color);
     padding: 60px 20px;
     text-align: center;
 }
@@ -163,9 +180,11 @@ nav a:focus-visible {
     margin: 15px auto;
 }
 
+
+
 /* Contact Section */
 #contact {
-    background-color: #E5EDE1;
+    background-color: var(--section-color);
     padding: 60px 20px;
     text-align: center;
 }
@@ -179,15 +198,15 @@ nav a:focus-visible {
 #how-it-works h2,
 #about h2,
 #contact h2 {
-    color: #244C39;
+    color: var(--primary-color);
     font-size: 32px;
     margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
-    background-color: #244C39;
-    color: white;
+    background-color: var(--accent-dark);
+    color: var(--text-color);
     text-align: center;
     padding: 25px;
 }
@@ -205,13 +224,13 @@ footer {
 }
 
 .menu-coming-soon h3 {
-    color: #244C39;
+    color: var(--text-color);
     font-size: 26px;
     margin-bottom: 20px;
 }
 
 .menu-coming-soon p {
-    color: #555555;
+    color: var(--text-color);
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -219,7 +238,7 @@ footer {
 
 /* About Us Styling */
 #about h3 {
-    color: #376A50;
+    color: var(--text-color);
     font-size: 24px;
     margin-bottom: 25px;
 }
@@ -229,10 +248,12 @@ footer {
     margin: 15px auto;
     font-size: 17px;
     line-height: 1.8;
+    
+
 }
 
 .about-tagline {
-    color: #244C39;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 20px !important;
     margin-top: 30px !important;
