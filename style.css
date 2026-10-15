@@ -69,16 +69,16 @@ nav a:focus-visible {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    clip-path: circle(45% at 50% 50%);
+    clip-path: circle(44% at 50% 50%);
 }
 
 /* Hero Section */
 .hero-section {
     background-color: var(--accent-color);
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
     border: 2px solid var(--accent-dark);
-    border-radius: 15px;
+   
 }
 
 .hero-section h1 {
