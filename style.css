@@ -65,11 +65,32 @@ nav a:focus-visible {
 
 /* Nav Logo */
 .nav-logo {
+    diplay: block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     clip-path: circle(44% at 50% 50%);
+}
+
+/* Navigation Links */
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul a:hover {
+    color: var(--accent-color);
 }
 
 /* Hero Section */
@@ -269,4 +290,29 @@ footer {
     font-weight: bold;
     font-size: 20px !important;
     margin-top: 30px !important;
+}
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .nav-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav ul a {
+        font-size: 14px;
+    }
 }
