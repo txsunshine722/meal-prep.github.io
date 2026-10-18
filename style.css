@@ -117,7 +117,7 @@ nav ul a:hover {
 .btn {
     display: inline-block;
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--accent-dark);
     padding: 14px 28px;
     border-radius: 8px;
     text-decoration: none;
@@ -142,7 +142,8 @@ nav ul a:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     background-image: url('images/peyman-shojaei-oven.png');
-
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -163,7 +164,7 @@ nav ul a:hover {
     
     font-size: 32px;
     margin-bottom: 15px;
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .meal-container {
