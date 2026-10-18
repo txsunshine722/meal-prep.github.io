@@ -65,7 +65,7 @@ nav a:focus-visible {
 
 /* Nav Logo */
 .nav-logo {
-    diplay: block;
+    display: block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -146,6 +146,15 @@ nav ul a:hover {
 }
 
 
+#menu,
+#how-it-works,
+#about,
+#contact {
+    padding: 40px 25px;
+}
+
+
+
 
 
 
@@ -208,10 +217,16 @@ nav ul a:hover {
     text-align: center;
 }
 
+
+    
 #about p {
-    max-width: 700px;
+    max-width: 950px;
     margin: 15px auto;
+    font-size: 17px;
+    line-height: 1.7;
 }
+
+
 
 
 
