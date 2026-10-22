@@ -2,6 +2,7 @@ console.log("HubCity Prep JavaScript is running!");
 
 const menuButton = document.getElementById("menu-button");
 const menuMessage = document.getElementById("menu-message");
+const weeklyMenu = document.getElementById("menu");
 
 menuButton.addEventListener("click", function() {
     menuMessage.hidden = !menuMessage.hidden;
@@ -11,5 +12,12 @@ menuButton.addEventListener("click", function() {
     } else {
         menuButton.textContent = "Check This Week's Menu";
     }
+
+    weeklyMenu.scrollIntoView({ 
+        behavior: "smooth" 
+    });
+
 });
+
+
 
