@@ -185,7 +185,7 @@ nav ul a:hover {
 }
 
 .meal-card h3 {
-    color: var(--dark-accent);
+    color: var(--accent-dark);
     margin-bottom: 10px;
 }
 
@@ -220,12 +220,7 @@ nav ul a:hover {
 
 
     
-#about p {
-    max-width: 950px;
-    margin: 15px auto;
-    font-size: 17px;
-    line-height: 1.7;
-}
+
 
 
 
