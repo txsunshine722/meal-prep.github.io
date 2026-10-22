@@ -4,6 +4,6 @@ const menuButton = document.getElementById("menu-button");
 const menuMessage = document.getElementById("menu-message");
 
 menuButton.addEventListener("click", function() {
-    menuMessage.hidden = false;
+    menuMessage.hidden = !menuMessage.hidden;
 });
 
